@@ -73,15 +73,15 @@ nav a {
 }
 /* text directions overides whats already been styled */
 
-.cover-image {
-  background-image: url();
-  background-position: 80% 20%;
-  background-size: cover;
+/* .cover-image {
+  background-image: url(./images/profile.jpg);
+  /* background-position: 80% 20%; */
+  /* background-size: 200px 100px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  min-height: 30vh;
-}
+  min-height: 30vh; */
+ */
 main {
   max-width: 90%;
   margin: 20px auto 45px auto;

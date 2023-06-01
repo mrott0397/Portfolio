@@ -1,27 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
-import Projects from './components/Projects';
+import Projects from './components/Portfolio';
 import Footer from './components/Footer';
+import About from './components/About';
 
 
 function App() {
+  // const [currentPage, setCurrentPage] = useState('About');
   return (
     <div className="App">
    <div>
-  {/* <header>
-    <h1>Morgan Rott</h1>
-    <nav>
-      <a href="#About-Me">About Me</a>
-      <a href="#Work">Work</a>
-      <a href="#Contact-Me">Contact Me</a>
-    </nav>
-  </header> */}
   <Header /> 
   <div className="cover-image">
   </div>
   <main>
-    <section id="About-Me" className="page-section">
+    < About />
+    {/* <section id="About-Me" className="page-section">
       <h2>About Me</h2>
       <div>
         <br />
@@ -29,7 +24,7 @@ function App() {
         </p>
         <br />
       </div>
-    </section>
+    </section> */}
     <Projects />
     <Footer />
   </main>

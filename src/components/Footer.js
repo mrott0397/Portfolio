@@ -1,4 +1,4 @@
-function Footer() {
+export default function Footer() {
     return (
         <section id="Contact-Me" className="page-section contact">
       <h2>Contact Me</h2>
@@ -13,4 +13,4 @@ function Footer() {
     )
 }
 
-export default Footer;
+// export default Footer;
