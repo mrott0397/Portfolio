@@ -12,8 +12,8 @@ function Nav({ currentPage, handlePageChange }) {
             Menu
           </Dropdown.Toggle>
           <Dropdown.Menu>
-            <Dropdown.Item href="#About-Me">About</Dropdown.Item>
-            <Dropdown.Item href="#Portfolio">Portfolio</Dropdown.Item>
+            <Dropdown.Item href="#about-me">About</Dropdown.Item>
+            <Dropdown.Item href="#projects">Portfolio</Dropdown.Item>
             <Dropdown.Item href="#Contact-Me">Contact</Dropdown.Item>
             <Dropdown.Item href="#Resume">Resume</Dropdown.Item>
           </Dropdown.Menu>

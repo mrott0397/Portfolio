@@ -9,8 +9,8 @@ function Header() {
 <a href="#about-me">
     <img src={fullStack} alt="Morgan Rott" id="bio-pic" />
 </a>
-<h1 className="hello">
-    Hey there, I'm Morgan Rott. Excited to create with you!
+<h1 className="hello"> <br />
+   Hey there! Thanks for checking out my work. Excited to create with you! 
 </h1>
 </header> 
     );
