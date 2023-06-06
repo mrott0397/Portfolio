@@ -14,6 +14,7 @@ const Contact = () => {
             .then((result) => {
                 console.log(result.text);
                 setEmailSent(true);
+                return form.current.reset();
             // .catch will console log the error if the email is not sent
             }
             , (error) => {
@@ -22,7 +23,7 @@ const Contact = () => {
     };
     return (
         <div id="contactDiv">
-            <h1 id="contact-me">Reach Out!</h1>
+            <h1 id="contact-me">Get in Touch With Me!</h1>
             {emailSent && <p className="emailSent">Email Sent!</p>}
             <form ref={form} onSubmit={sendEmail}>
                 <div className="formStuff"><input type="text" name="user_name" placeholder="Name" /> </div>

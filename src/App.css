@@ -15,9 +15,6 @@ p {
   font-family: 'Roboto', sans-serif;
   margin: 0px !important;
 }
-/* * {
-  background-color:  whitesmoke;
-} */
   /*------------- Nav Section ----------------*/
   nav {
     background-color:  white;
@@ -350,7 +347,7 @@ a:hover {
 #contact-me, #about-me, #projects, #skillsInPics {
   font-family: 'Playfair Display', serif;
   margin-top: 40px;
-  color: var(--lime);
+  color: #567d89;
 }
 
 #send-it {
@@ -375,10 +372,37 @@ form {
   padding-bottom: 50px;
 }
 
+/* ---------------------------- Footer ------------------------------- */
+
+footer {
+  margin-top: 25px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: var(--light);
+}
+
+.icons {
+  width: 30px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#yas {
+  margin-top: 7px;
+  margin-bottom: auto;
+  font-size: 12px;
+}
+
+#footerInfo {
+  margin-top: 10px;
+}
+
 @media screen and (max-width: 992px) {
   /* Change the header color */
   header {
-    background:  #567d89;
+    background-image: url(./images/coding.jpg);
   }
 }
 
@@ -393,7 +417,7 @@ form {
   }
   /* Change the header color */
   header {
-    background:  #567d89;
+    background-image: url(./images/coding.jpg);
   }
   /* header h1 {
     background: ;
